@@ -2,6 +2,8 @@
   "name": "witherstore-bot",
   "version": "1.0.0",
   "main": "build/index.js",
+  "author": "Azoraqua <info@azoraqua.dev>",
+  "repository": "github:WitherStore/order-bot",
   "type": "module",
   "scripts": {
     "build": "esbuild ./src/index.ts --sourcemap --format=esm --bundle --minify --platform=node --target=node24 --external:discord.js --external:stripe --external:source-map-support --outdir=build/",
